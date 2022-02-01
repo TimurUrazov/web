@@ -1,0 +1,53 @@
+:root {
+    --table-padding: 1rem;
+}
+
+aside section .body {
+    padding: 1rem;
+}
+
+aside section .footer {
+    border-top: 1px solid var(--border-color);
+    overflow: auto;
+    padding: 0.25rem;
+}
+
+aside section .footer a {
+    float: right;
+    font-size: 0.75rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+.datatable .caption {
+    background-color: #E1E1E1;
+    padding: calc(var(--border-radius) / 1.7);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    border-bottom: none;
+}
+table {
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+    width: 100%;
+    height: 7.5rem;
+}
+
+th {
+    border: 1px solid var(--border-color);
+    padding: 0.2rem var(--table-padding);
+}
+
+td {
+    text-align: center;
+    padding: 0.15rem var(--table-padding);
+    border: 1px solid var(--border-color);
+}
+
+table tbody tr:nth-child(2n - 1) {
+    background-color: #f8f8f8;
+}
+

@@ -1,0 +1,19 @@
+.comment {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.comment .information {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.comment .text {
+    margin-top: 0.5rem;
+}
+
+.comment body {
+    padding-left: 0.75rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
